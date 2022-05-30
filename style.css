@@ -41,8 +41,8 @@ footer{
 }
 /* Responsive design styles */
 
-@media only screen and (max-width:572px)
-{
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
     .container{
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
@@ -56,4 +56,28 @@ footer{
             "footer"
         ;
     }
+ }
+/*smaller devices: smartphone, 576 & up */
+@media (min-width:576px) {
+    
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+}
+/*Large devices (desktops, 992px and up)  */
+@media (min-width: 992px)
+{
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px)
+{
+
+}
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width:1400px)
+{
+
 }
