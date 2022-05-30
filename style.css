@@ -39,3 +39,21 @@ footer{
     background-color: rgb(24, 200, 209);
     grid-area: footer;
 }
+/* Responsive design styles */
+
+@media only screen and (max-width:572px)
+{
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-areas: 
+            "nav"
+            "sidebar"
+            "main"
+            "content1"
+            "content2"
+            "content3"
+            "footer"
+        ;
+    }
+}

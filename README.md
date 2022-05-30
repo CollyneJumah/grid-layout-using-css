@@ -86,3 +86,12 @@ grid-template-areas:
     grid-gap: 5px;
 }
 ```
+
+## Responsive Design
+In this design, we make everything in one column. Below are sample responsive on various device screen sizes:
+### a. Large Screen size- Desktops
+![](images/responsive/larg-screen.png)
+### a. Medium Screen size- Tablets
+![](images/responsive/medium-screen-size.png)
+### a. Small screen sizes-Smartphones
+![](images/responsive/small-screen-design.png)
