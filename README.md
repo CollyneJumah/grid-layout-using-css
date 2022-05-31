@@ -95,3 +95,8 @@ In this design, we make everything in one column. Below are sample responsive on
 ![](images/responsive/medium-screen-size.png)
 ### a. Small screen sizes-Smartphones
 ![](images/responsive/small-screen-design.png)
+
+## LEARNING RESOURCES ON GRID LAYOUT
+- A complete guide to Grid Layout: <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">https://css-tricks.com/snippets/css/complete-guide-grid/ </a>
+- Learn CSS Grid <a href="https://learncssgrid.com/" target="_blank">https://learncssgrid.com/</a>
+- CSS Grid Layout <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout</a>
