@@ -97,6 +97,7 @@ In this design, we make everything in one column. Below are sample responsive on
 ![](images/responsive/small-screen-design.png)
 
 ## LEARNING RESOURCES ON GRID LAYOUT
+- How to Use CSS Grid Layout – Grid Properties Explained with Examples <a href="https://www.freecodecamp.org/news/how-to-use-css-grid-layout/" target="_blank">https://www.freecodecamp.org/news/how-to-use-css-grid-layout/</a>
 - A complete guide to Grid Layout: <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">https://css-tricks.com/snippets/css/complete-guide-grid/ </a>
 - Learn CSS Grid <a href="https://learncssgrid.com/" target="_blank">https://learncssgrid.com/</a>
 - CSS Grid Layout <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout</a>
