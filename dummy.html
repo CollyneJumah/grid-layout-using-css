@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+            grid-template-areas: 
+                    "nav nav nav nav"
+                    "sidebar main main main"
+                    "sidebar content1 content2 content3"
+                    "sidebar footer footer footer"
+
+            ;
+        }
+
+        nav{
+            background-color: aqua;
+            grid-area: nav;
+        }
+        main{
+            background-color: antiquewhite;
+            grid-area: main;
+        }
+        #content1{
+            background-color: rgb(255, 174, 0);
+            grid-area: content1;
+        }
+        #sidebar{
+            background-color: darkkhaki;
+            grid-area: sidebar;
+        }
+        #content2{
+            background-color:chartreuse ;
+            grid-area: content2;
+        }
+        #content3{
+            background-color: aquamarine;
+            grid-area: content3;
+        }
+        footer{
+            background-color: rgb(24, 200, 209);
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>NavBar</nav>
+        <main>Main Content</main>
+        <div id="sidebar">Sidebar</div>
+        <div id="content1">Content 1</div>
+        <div id="content2">Content 2</div>
+        <div id="content3">Content 3</div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

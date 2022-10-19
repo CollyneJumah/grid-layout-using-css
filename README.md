@@ -1,4 +1,30 @@
 # Using CSS Grid Layout
+## Definition
+> CSS Grid is a powerful tool that allows for two-dimensional layouts for columns and rows to be created on the web
+
+## Features of CSS Grid Layout
+1. Flexible traction size
+>You can use the `fr` unit (Fraction Unit) to assign any specified pixel value to the grid. This will make your grid organized and responsive.
+
+2. Item Placement
+>CSS grid has made it much easier to position items in the container in any area you want them to be without having to mess with the HTML markup.
+
+## CSS Grid Properties
+1. Grid container
+
+This is a CSS grid property that houses the grid items/elements. We implement the CSS grid container property by setting the container to a display property of `grid` or `in-line grid`.
+```
+display:grid
+```
+2. Grid-template-column property
+>Used to set each column’s width. It can also define how many columns you want to set to your project.
+`grid-template-column`. <br>
+<b>Example</b>
+`grid-template-column: 100px auto 100px;`
+
+>The code above shows that we have three columns. The width of columns one (the first column) and three (the third column) are set to 100px. The width of column two (the middle column) is set to auto.
+>This means that as the size of your screen increases, columns one and three take 100px of the screen width, while column two takes the remaining width of the screen (which is auto).
+
 ## Step guide
 - Create a div with a class of container
 `<div class="container"> </div>` all other div will be nested in the container class.
